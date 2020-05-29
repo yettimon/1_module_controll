@@ -35,7 +35,7 @@ public class LabWork1 {
                 .toLowerCase()
                 .replaceAll("\\.", "");
         String[] words = clearedText.split(" ");
-
+        int LineCount = 0;
 
         for (int i = 0; i < words.length; i++) {
             if (words[i].length() >= longword.length()) {
@@ -54,7 +54,7 @@ public class LabWork1 {
             if (words[i].contains("harry"))
                 count++;
         }
-        System.out.println("Word Harry" + " repeats " + count + " times");
+        System.out.println("Word Harry" + " found in " + count + " lines");
         System.out.println("Duplicate Characters are:");
 
         for (int i = 0; i < words.length; i++) {
