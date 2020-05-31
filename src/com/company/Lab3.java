@@ -1,3 +1,11 @@
+/*
+ * Lab Work1, Area limited by the following functions
+ *
+ * Version info 1.0
+ *
+ * Copyright Stavnichuk Dmytro
+
+ */
 package com.company;
 
 public class Lab3 {
